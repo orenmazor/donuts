@@ -1,0 +1,9 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  default:
+    cmds:
+      - poetry run python donuts/runme.py -f sample_names.txt
+    silent: true
